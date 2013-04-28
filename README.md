@@ -4,7 +4,7 @@ paddy-greeter
 Paddy-Greeter is a greeter(read: a login screen) for use with lightdm and lightdm-webkit-greeter.
 
 It has pretty limited functionality, but looks pretty neat.
-A screenshot of paddy-greeter in action can be found [here](https://github.com/kalmanolah/paddy-greeter/raw/master/src/screenshot.png).
+A screenshot of paddy-greeter in action can be found [here](https://raw.github.com/kalmanolah/paddy-greeter/master/screenshot.png).
 
 ![paddy-greeter](https://raw.github.com/kalmanolah/paddy-greeter/master/screenshot.png)
 
