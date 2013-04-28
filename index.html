@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/clearfix.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="font/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="font/iconic_fill.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+</head>
+
+<body oncontextmenu="return false;">
+<div id="box">
+    <div class="box-inner">
+        <div class="header cf">
+            <span id="clock-widget">Loading...</span>
+        </div>
+        <hr>
+        <div id="content" class="cf">
+            <div id="form">
+            	<form action="javascript: attemptLogin()">
+                	<span class="iconic user"></span>
+                	<input id="user" type="text" placeholder="Username..." />
+            	</form>
+            	<form action="javascript: attemptLogin()">
+                	<span class="iconic key_fill"></span>
+                	<input id="password" type="password" placeholder="Password..." />
+            	</form>
+        	</div>
+        	<div id="distro-widget"></div>
+        </div>
+        <hr>
+        <div class="footer cf">
+            <span id="version">Paddy v1.0.0</span>
+            <span id="hostname-widget">Loading...</span>
+            <div id="message"></div>
+        </div>
+    </div>
+    <div id="actions">
+        <div id="actions-inner">Loading...</div>
+    </div>
+</div>
+    <script type="text/javascript" src="js/mock.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

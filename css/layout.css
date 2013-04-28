@@ -1,0 +1,156 @@
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../img/navaho.png);
+}
+
+body {
+    -webkit-user-select: none;
+    font-family: 'Ostrich';
+    font-size: 16pt;
+    color: #393939;
+    text-shadow: -1px 1px #fff;
+}
+a {
+    text-decoration: none;
+}
+
+img, a, input, select {
+    outline: none;
+}
+
+#box {
+    position: absolute;
+    display: inline-block;
+    background: url(../img/fabric_of_squares_gray.png);
+    padding: 5px;
+    box-shadow: 2px 2px 7px #555;
+    border: 1px solid #f0f0f0;
+}
+
+.box-inner {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.header, .footer {
+    text-align: center;
+}
+
+.header {
+    font-size: 24pt;
+    font-family: 'Ostrich';
+}
+
+.footer {
+    font-size: 12pt;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+
+#clock-widget span {
+    font-family: 'Ostrich Black';
+}
+
+#version {
+    float: left;
+}
+
+#hostname-widget {
+    float: right;
+}
+
+#form {
+    width: 60%;
+    float: left;
+}
+
+#form form {
+    position: relative;
+}
+
+#form form span.iconic {
+    position: absolute;
+    top: 0;
+    left: 0.5em;
+    line-height: 26pt;
+}
+
+#form form input {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 0 0 0 2em;
+    height: 26pt;
+    color: #393939;
+}
+
+#form form input:focus {
+    border: 1px solid #69D2E7;
+    box-shadow: 0 0 5px #A7DBD8;
+}
+
+#actions {
+    position: absolute;
+    top: -3em;
+    right: 0;
+    display: inline-block;
+    background: url(../img/fabric_of_squares_gray.png);
+    padding: 5px;
+    box-shadow: 2px 2px 5px #555;
+    border: 1px solid #f0f0f0;
+}
+
+#actions-inner {
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+}
+
+#actions-inner a {
+    margin-right: 10px;
+}
+
+#actions-inner a:hover {
+    cursor: pointer;
+}
+
+#actions-inner a:last-child {
+    margin-right: 0;
+}
+
+#message {
+    color: #E73525;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#message.error {
+    color: #f0f0f0;
+    background: #FF6B6B;
+    text-shadow: none;
+}
+
+#content {
+	position: relative;
+}
+
+#distro-widget {
+	float: right;
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+    vertical-align: middle;
+    width: 30%;
+    margin: 5%;
+}
+
+#distro-widget img {
+	max-width: 100%;
+}
