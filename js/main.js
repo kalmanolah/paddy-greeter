@@ -102,14 +102,18 @@ function initializeDistroWidget() {
 		// Add in the distro logo
 		var el = document.getElementById('distro-widget');
 		var img = document.createElement('img');
-		img.src = 'img/distro/'+distro_image;
+		
 		el.appendChild(img);
 		
-		// Center the form elements in #form
-		var form = document.getElementById('form');
-		var content = document.getElementById('content');
-		// Set #form top margin to half of #content height minus half of #form height
-		form.style.marginTop = ((content.offsetHeight / 2) - (form.offsetHeight / 2)) + 'px';
+		img.src = 'img/distro/'+distro_image;
+		
+		// Center the form elements in #form after the image has loaded
+		img.onload = function() {
+			var form = document.getElementById('form');
+			var content = document.getElementById('content');
+			// Set #form top margin to half of #content height minus half of #form height
+			form.style.marginTop = ((content.offsetHeight / 2) - (form.offsetHeight / 2)) + 'px';
+		}
 	}
 }
 
