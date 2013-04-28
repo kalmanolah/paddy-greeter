@@ -55,9 +55,9 @@ Next, configure lightdm-webkit-greeter to use paddy-greeter. You can do so by ed
 Finally, clone the repo and copy the folder to the lightdm-webkit themes directory.
 
     git clone git://github.com/kalmanolah/paddy-greeter.git
-    cp -R paddy-greeter /usr/share/lightdm-webkit/themes/paddy
+    sudo cp -R paddy-greeter /usr/share/lightdm-webkit/themes/paddy
 
-OPTIONAL: Change the distro image to something else, as I current don't have a way to determine your distro. Open up `js/main.js` and change `distro_image` to a distro logo of your choosing. It should correspond to `img/distro/<distro_image>`.
+OPTIONAL: Change the distro image to something else, as I currently don't have a way to determine your distro. Open up `js/main.js` and change `distro_image` to a distro logo of your choosing. It should correspond to `img/distro/<distro_image>`.
 
     distro_image = 'ubuntu.svg'; // distro image is 'img/distro/ubuntu.svg'
 
